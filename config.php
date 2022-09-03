@@ -3,8 +3,8 @@
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'database-1.ceaqyubwm5tx.ap-south-1.rds.amazonaws.com');
 define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'password');
-define('DB_NAME', 'employees_db');
+define('DB_PASSWORD', 'kavyarajanna');
+define('DB_NAME', 'employees_db1');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
